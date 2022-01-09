@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!--<link rel="stylesheet" href="box.scss" />-->
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <title>BOX</title>
+  </head>
+  <body>
+    <h1>ようこそ<strong>Bookers</strong>へ！</h1>
+    <p><strong>Bookers</strong>では、さまざまな書籍に関するあなたの意見や<br>
+       印象を共有し交換することができます</p>
+
+    <!--<a href=/books>start</a>-->
+     <span>
+      <%=link_to 'start', "/books" %>
+    </span>
+
+  </body>
+</html>
